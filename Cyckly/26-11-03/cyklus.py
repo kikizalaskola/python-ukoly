@@ -30,9 +30,9 @@ while tip != tajne_cislo and limit>0:
     print(f"Máš {limit} pokusů" )
     tip = int(input("Zadejte hádané číslo: "))
 
-    if tip == tajne_cislo:  
+if tip == tajne_cislo:  
         print(f"Gratuluji! Uhodl jsi číslo {tajne_cislo} na {pokusy}. pokus.")
-    if limit<=0:
+if limit<=0:
         print(f"Bohužel ti došly pokusy! Tajné číslo bylo {tajne_cislo}.")
 
 
