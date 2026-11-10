@@ -8,11 +8,11 @@ b= 1
 par = a+b
 
 print("-" * 20)
-print(f"Měsíc {mesice}: {par} pár(ů) ", "🐁"*par)
+print(f"Měsíc {mesice}: {par} pár(ů) ", "🐇"*par)
 while mesice<doba_simulace:
     mesice +=1
     par = a + b
     a = b
     b = par
     print("-" * 20)
-    print(f"Měsíc {mesice}: {par} pár(ů) ", "🐁"*par)
+    print(f"Měsíc {mesice}: {par} pár(ů) ", "🐇"*par)
