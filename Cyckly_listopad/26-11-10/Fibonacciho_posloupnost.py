@@ -5,14 +5,14 @@ a = 0
 #mladata 
 b= 1
 #pomocna promena
-dopredu = a+b
+par = a+b
 
 print("-" * 20)
-print(f"Měsíc {mesice}: {dopredu} pár(ů) ", "🐁"*dopredu)
+print(f"Měsíc {mesice}: {par} pár(ů) ", "🐁"*par)
 while mesice<doba_simulace:
     mesice +=1
-    dopredu = a + b
+    par = a + b
     a = b
-    b = dopredu
+    b = par
     print("-" * 20)
-    print(f"Měsíc {mesice}: {dopredu} pár(ů) ", "🐁"*dopredu)
+    print(f"Měsíc {mesice}: {par} pár(ů) ", "🐁"*par)
